@@ -1,0 +1,15 @@
+MSH|^~\&|eClinibase|Facility_5|||200603261538||ADT^A01|ALMIgT|P|2.3|||||CA|ASCII
+EVN|A01|200603261538||101|ID57^Nash^Daniel|200603261538
+PID|2149||4873Ignb^^^^^Facility_3|ALT_8236kwAO^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^VOID|Nash^Daniel||200603261538|U|^||210 Samantha Harbor Apt. 098^ADR2^Longueuil^QC^F2DF5G^CA^P^92451^86||(300)192-8710^^^^^^^|(016)221-1035^^^^^^^^|km^km|S|||||||Samoa|||||Mali||Y
+ZI1|ZI_ID|||||||||||||||||Samoa|VOID||199205122141||197404260341||||||||CONF_IND|||(152)781-5442
+NK1|0001|Johnson^Troy|P^PERE||^^^^^^^^|^^^^^^^^|||||||||||||||||||||||||||2149
+NK1|0002|^|C^CONJOINT||^^^^^^^^|^^^^^^^^|||||||||||||||||||||||||||2149
+NK1|0003|Miller^Shannon|^||(351)460-9541^^^^^^^^|^^^^^^^^|Urgence||||||||||||||||||||||||||2149
+NK1|0004|Miller^Stephanie|M^MERE||^^^^^^^^|^^^^^^^^|||||||||||||||||||||||||||2149
+PV1|0715|E|unite_28^room_101^bed_7^facility_0^^^^^chambreType_3|ADDMISSION_TYPE|||45_DR^Miller^^^^^MD|^||H_SERVICE_45|||||||45_DR^Brad|PATIENT_TYPE|VISIT_45|FINANCE_45||||||||||||||||||||||||201903250824||||||VISIT_45
+PV2|unite_96||^|||||||||||||||||||Pr744dZ
+ZV1||PROV_45|PROV_DESC_45|||||||||||||||||||chambreType_3||||||||200907091935||PAIMENT_45
+ACC||^|||ACCIDENT_45
+DG1|5719||^diag_98||||||||||||47|^^^^^^MD
+ZI2|ZI2_ID|1|||Roach-Ashley|Sports administrator|||||||||||||||||||||
+ZVN|********|********

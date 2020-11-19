@@ -1,0 +1,36 @@
+MSH|^~\&|eClinibase|Facility_8|||201507300544||ADT^A31|2005101115442823302522|P|2.3|||||CA|ASCII
+PID|1||5955ZYiN|8858JjUP^UNKWON^Québec|Gould^Stephanie||201507300544|F|||39092 Little Squares Suite 858^^Longueuil^QC^CANADA^P^UNKWON|(784)005-7566||||||||||||||||N
+NK1|1|Miller^Brian|P^PERE
+NK1|2||C^CONJOINT
+NK1|3|PERE^CELL|||(784)005-7566||URGENCE1
+NK1|4|Fitzgerald^Mary|M^MERE
+
+MSH|^~\&|eClinibase|Facility_5|||199003271653||ADT^A31|1980061203295005100604|P|2.3|||||CA|ASCII
+PID|1||7783LtKD|7702kFXh^UNKWON^Québec|Lee^Timothy||199003271653|F|||9229 Baker Plaza Suite 347^^Laval^QC^CANADA^P^UNKWON|(130)430-6590||||||||||||||||N
+NK1|1|Allen^Michele|P^PERE
+NK1|2||C^CONJOINT
+NK1|3|PERE^CELL|||(130)430-6590||URGENCE1
+NK1|4|Martinez^Jessica|M^MERE
+
+MSH|^~\&|eClinibase|Facility_1|||197005151002||ADT^A31|1994112907022496749430|P|2.3|||||CA|ASCII
+PID|1||2895KvrN|9538bjOT^UNKWON^Québec|Bailey^James||197005151002|F|||737 Vincent Branch Apt. 646^^Longueuil^QC^CANADA^P^UNKWON|(662)395-5737||||||||||||||||N
+NK1|1|Romero^Ashley|P^PERE
+NK1|2||C^CONJOINT
+NK1|3|PERE^CELL|||(662)395-5737||URGENCE1
+NK1|4|Oconnor^Tammy|M^MERE
+
+MSH|^~\&|eClinibase|Facility_5|||200603261538||ADT^A01|ALMIgT|P|2.3|||||CA|ASCII
+EVN|A01|200603261538||101|ID57^Nash^Daniel|200603261538
+PID|2149||4873Ignb^^^^^Facility_3|ALT_8236kwAO^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^VOID|Nash^Daniel||200603261538|U|^||210 Samantha Harbor Apt. 098^ADR2^Longueuil^QC^F2DF5G^CA^P^92451^86||(300)192-8710^^^^^^^|(016)221-1035^^^^^^^^|km^km|S|||||||Samoa|||||Mali||Y
+ZI1|ZI_ID|||||||||||||||||Samoa|VOID||199205122141||197404260341||||||||CONF_IND|||(152)781-5442
+NK1|0001|Johnson^Troy|P^PERE||^^^^^^^^|^^^^^^^^|||||||||||||||||||||||||||2149
+NK1|0002|^|C^CONJOINT||^^^^^^^^|^^^^^^^^|||||||||||||||||||||||||||2149
+NK1|0003|Miller^Shannon|^||(351)460-9541^^^^^^^^|^^^^^^^^|Urgence||||||||||||||||||||||||||2149
+NK1|0004|Miller^Stephanie|M^MERE||^^^^^^^^|^^^^^^^^|||||||||||||||||||||||||||2149
+PV1|0715|E|unite_28^room_101^bed_7^facility_0^^^^^chambreType_3|ADDMISSION_TYPE|||45_DR^Miller^^^^^MD|^||H_SERVICE_45|||||||45_DR^Brad|PATIENT_TYPE|VISIT_45|FINANCE_45||||||||||||||||||||||||201903250824||||||VISIT_45
+PV2|unite_96||^|||||||||||||||||||Pr744dZ
+ZV1||PROV_45|PROV_DESC_45|||||||||||||||||||chambreType_3||||||||200907091935||PAIMENT_45
+ACC||^|||ACCIDENT_45
+DG1|5719||^diag_98||||||||||||47|^^^^^^MD
+ZI2|ZI2_ID|1|||Roach-Ashley|Sports administrator|||||||||||||||||||||
+ZVN|********|********

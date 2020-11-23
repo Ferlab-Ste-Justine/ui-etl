@@ -1,0 +1,790 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": "%spark.sql\nuse ui",
+      "user": "anonymous",
+      "dateUpdated": "2020-11-23T13:40:43-0500",
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "namespace": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1605535273165_1510172341",
+      "id": "paragraph_1605535273165_1510172341",
+      "dateCreated": "2020-11-16T09:01:13-0500",
+      "dateStarted": "2020-11-23T13:40:43-0500",
+      "dateFinished": "2020-11-23T13:41:09-0500",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:4943"
+    },
+    {
+      "text": "%spark.sql\nshow tables\n",
+      "user": "anonymous",
+      "dateUpdated": "2020-11-23T13:41:22-0500",
+      "config": {
+        "colWidth": 6,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "database": "string",
+                      "tableName": "string",
+                      "isTemporary": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "database\ttableName\tisTemporary\nui\tadt\tfalse\nui\ttest\tfalse\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1605541703631_284882490",
+      "id": "paragraph_1605541703631_284882490",
+      "dateCreated": "2020-11-16T10:48:23-0500",
+      "dateStarted": "2020-11-23T13:41:22-0500",
+      "dateFinished": "2020-11-23T13:41:23-0500",
+      "status": "FINISHED",
+      "$$hashKey": "object:4944"
+    },
+    {
+      "text": "%spark.sql\ndescribe adt",
+      "user": "anonymous",
+      "dateUpdated": "2020-11-17T11:42:29-0500",
+      "config": {
+        "colWidth": 6,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "col_name": "string",
+                      "data_type": "string",
+                      "comment": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "col_name\tdata_type\tcomment\nmsh\tstruct<sending_application:string,sending_facility:string,date:timestamp,version_id:string,country_code:string>\tnull\nevn\tstruct<recorded_date:timestamp,event_reason_code:string,operator_id:string,event_date:timestamp>\tnull\npid\tstruct<patient_id:string,first_name:string,last_name:string,sex:string,date_of_birth:timestamp,birth_place:string,nationality:string,marital_satus:string,patient_death_indicator:string>\tnull\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1605541679905_2015977587",
+      "id": "paragraph_1605541679905_2015977587",
+      "dateCreated": "2020-11-16T10:47:59-0500",
+      "dateStarted": "2020-11-17T11:42:29-0500",
+      "dateFinished": "2020-11-17T11:42:30-0500",
+      "status": "FINISHED",
+      "$$hashKey": "object:4945"
+    },
+    {
+      "text": "%spark.sql\nselect * from adt",
+      "user": "anonymous",
+      "dateUpdated": "2020-11-23T13:41:35-0500",
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {
+                    "columns": [
+                      {
+                        "name": "msh0",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {
+                          "priority": 0,
+                          "direction": "desc"
+                        },
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "evn1",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "pid2",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      }
+                    ],
+                    "scrollFocus": {},
+                    "selection": [],
+                    "grouping": {
+                      "grouping": [],
+                      "aggregations": [],
+                      "rowExpandedStates": {}
+                    },
+                    "treeView": {},
+                    "pagination": {
+                      "paginationCurrentPage": 1,
+                      "paginationPageSize": 250
+                    }
+                  },
+                  "tableColumnTypeState": {
+                    "names": {
+                      "msh": "string",
+                      "evn": "string",
+                      "pid": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "msh\tevn\tpid\n[eClinibase,Facility_8,2015-07-30 01:44:00.0,2.3,CA]\t[null,null,null,null]\t[5955ZYiN,Stephanie,Gould,F,2015-07-30 01:44:00.0,null,N,null,null]\n[eClinibase,Facility_5,1990-03-27 11:53:00.0,2.3,CA]\t[null,null,null,null]\t[7783LtKD,Timothy,Lee,F,1990-03-27 11:53:00.0,null,N,null,null]\n[eClinibase,Facility_1,1970-05-15 06:02:00.0,2.3,CA]\t[null,null,null,null]\t[2895KvrN,James,Bailey,F,1970-05-15 06:02:00.0,null,N,null,null]\n[eClinibase,Facility_5,2006-03-26 10:38:00.0,2.3,CA]\t[2006-03-26 10:38:00.0,101,ID57,2006-03-26 10:38:00.0]\t[4873Ignb,Daniel,Nash,U,2006-03-26 10:38:00.0,Samoa,Mali,S,Y]\n[eClinibase,Facility_5,2006-03-26 10:38:00.0,2.3,CA]\t[2006-03-26 10:38:00.0,101,ID57,2006-03-26 10:38:00.0]\t[4873Ignb,Daniel,Nash,U,2006-03-26 10:38:00.0,Samoa,Mali,S,Y]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://127.0.0.1:4040/jobs/job?id=0",
+              "$$hashKey": "object:5193"
+            },
+            {
+              "jobUrl": "http://127.0.0.1:4040/jobs/job?id=1",
+              "$$hashKey": "object:5194"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1605541639278_722660749",
+      "id": "paragraph_1605541639278_722660749",
+      "dateCreated": "2020-11-16T10:47:19-0500",
+      "dateStarted": "2020-11-23T13:41:35-0500",
+      "dateFinished": "2020-11-23T13:41:46-0500",
+      "status": "FINISHED",
+      "$$hashKey": "object:4946"
+    },
+    {
+      "text": "%sql\nselect msh.*, evn.*, pid.* from ui.adt",
+      "user": "anonymous",
+      "dateUpdated": "2020-11-16T11:54:36-0500",
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "sending_application": "string",
+                      "sending_facility": "string",
+                      "date": "string",
+                      "version_id": "string",
+                      "country_code": "string",
+                      "recorded_date": "string",
+                      "event_reason_code": "string",
+                      "operator_id": "string",
+                      "event_date": "string",
+                      "patient_id": "string",
+                      "first_name": "string",
+                      "last_name": "string",
+                      "sex": "string",
+                      "date_of_birth": "string",
+                      "birth_place": "string",
+                      "nationality": "string",
+                      "marital_satus": "string",
+                      "patient_death_indicator": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "sending_application\tsending_facility\tdate\tversion_id\tcountry_code\trecorded_date\tevent_reason_code\toperator_id\tevent_date\tpatient_id\tfirst_name\tlast_name\tsex\tdate_of_birth\tbirth_place\tnationality\tmarital_satus\tpatient_death_indicator\neClinibase\tFacility_8\t2015-07-30 01:44:00.0\t2.3\tCA\tnull\tnull\tnull\tnull\t5955ZYiN\tStephanie\tGould\tF\t2015-07-30 01:44:00.0\tnull\tN\tnull\tnull\neClinibase\tFacility_5\t1990-03-27 11:53:00.0\t2.3\tCA\tnull\tnull\tnull\tnull\t7783LtKD\tTimothy\tLee\tF\t1990-03-27 11:53:00.0\tnull\tN\tnull\tnull\neClinibase\tFacility_1\t1970-05-15 06:02:00.0\t2.3\tCA\tnull\tnull\tnull\tnull\t2895KvrN\tJames\tBailey\tF\t1970-05-15 06:02:00.0\tnull\tN\tnull\tnull\neClinibase\tFacility_5\t2006-03-26 10:38:00.0\t2.3\tCA\t2006-03-26 10:38:00.0\t101\tID57\t2006-03-26 10:38:00.0\t4873Ignb\tDaniel\tNash\tU\t2006-03-26 10:38:00.0\tSamoa\tMali\tS\tY\neClinibase\tFacility_5\t2006-03-26 10:38:00.0\t2.3\tCA\t2006-03-26 10:38:00.0\t101\tID57\t2006-03-26 10:38:00.0\t4873Ignb\tDaniel\tNash\tU\t2006-03-26 10:38:00.0\tSamoa\tMali\tS\tY\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://192.168.0.107:4040/jobs/job?id=17",
+              "$$hashKey": "object:5232"
+            },
+            {
+              "jobUrl": "http://192.168.0.107:4040/jobs/job?id=18",
+              "$$hashKey": "object:5233"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1605535283482_1958895313",
+      "id": "paragraph_1605535283482_1958895313",
+      "dateCreated": "2020-11-16T09:01:23-0500",
+      "dateStarted": "2020-11-16T11:54:35-0500",
+      "dateFinished": "2020-11-16T11:54:36-0500",
+      "status": "FINISHED",
+      "$$hashKey": "object:4947"
+    },
+    {
+      "text": "%sql\nselect msh.sending_facility as facility, count(1) as c from adt group by msh.sending_facility",
+      "user": "anonymous",
+      "dateUpdated": "2020-11-17T11:46:06-0500",
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "pieChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "facility": "string",
+                      "c": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                },
+                "stackedAreaChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "facility",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "c",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "facility\tc\nFacility_8\t1\nFacility_5\t3\nFacility_1\t1\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://192.168.0.107:4040/jobs/job?id=6",
+              "$$hashKey": "object:5271"
+            },
+            {
+              "jobUrl": "http://192.168.0.107:4040/jobs/job?id=7",
+              "$$hashKey": "object:5272"
+            },
+            {
+              "jobUrl": "http://192.168.0.107:4040/jobs/job?id=8",
+              "$$hashKey": "object:5273"
+            },
+            {
+              "jobUrl": "http://192.168.0.107:4040/jobs/job?id=9",
+              "$$hashKey": "object:5274"
+            },
+            {
+              "jobUrl": "http://192.168.0.107:4040/jobs/job?id=10",
+              "$$hashKey": "object:5275"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1605537702109_1018600570",
+      "id": "paragraph_1605537702109_1018600570",
+      "dateCreated": "2020-11-16T09:41:42-0500",
+      "dateStarted": "2020-11-16T10:50:08-0500",
+      "dateFinished": "2020-11-16T10:50:23-0500",
+      "status": "FINISHED",
+      "$$hashKey": "object:4948"
+    },
+    {
+      "text": "%pyspark\ndf=spark.table(\"adt\")\ndf=df.where(df[\"pid\"].last_name == \"Nash\")\nz.show(df)",
+      "user": "anonymous",
+      "dateUpdated": "2020-11-16T14:09:43-0500",
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "msh": "string",
+                      "evn": "string",
+                      "pid": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "msh\tevn\tpid\n[eClinibase,Facility_5,2006-03-26 10:38:00.0,2.3,CA]\t[2006-03-26 10:38:00.0,101,ID57,2006-03-26 10:38:00.0]\t[4873Ignb,Daniel,Nash,U,2006-03-26 10:38:00.0,Samoa,Mali,S,Y]\n[eClinibase,Facility_5,2006-03-26 10:38:00.0,2.3,CA]\t[2006-03-26 10:38:00.0,101,ID57,2006-03-26 10:38:00.0]\t[4873Ignb,Daniel,Nash,U,2006-03-26 10:38:00.0,Samoa,Mali,S,Y]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://192.168.0.107:4040/jobs/job?id=0",
+              "$$hashKey": "object:5319"
+            },
+            {
+              "jobUrl": "http://192.168.0.107:4040/jobs/job?id=1",
+              "$$hashKey": "object:5320"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1605541790157_1576363851",
+      "id": "paragraph_1605541790157_1576363851",
+      "dateCreated": "2020-11-16T10:49:50-0500",
+      "dateStarted": "2020-11-16T14:09:43-0500",
+      "dateFinished": "2020-11-16T14:09:53-0500",
+      "status": "FINISHED",
+      "$$hashKey": "object:4949"
+    },
+    {
+      "text": "%sql\ndrop table adt\n",
+      "user": "anonymous",
+      "dateUpdated": "2020-11-16T15:34:32-0500",
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1605541859211_1834995257",
+      "id": "paragraph_1605541859211_1834995257",
+      "dateCreated": "2020-11-16T10:50:59-0500",
+      "dateStarted": "2020-11-16T15:34:32-0500",
+      "dateFinished": "2020-11-16T15:34:33-0500",
+      "status": "FINISHED",
+      "$$hashKey": "object:4950"
+    },
+    {
+      "text": "%sql\nselect * from variant.occurrences_sd_9pyzahhe_re_000008 limit 10",
+      "user": "anonymous",
+      "dateUpdated": "2020-11-17T20:37:14-0500",
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Error happens in sql: select * from variant.occurrences_sd_9pyzahhe_re_000008 limit 10\njava.lang.reflect.InvocationTargetException\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat org.apache.zeppelin.spark.SparkSqlInterpreter.internalInterpret(SparkSqlInterpreter.java:105)\n\tat org.apache.zeppelin.interpreter.AbstractInterpreter.interpret(AbstractInterpreter.java:47)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:110)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:776)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:668)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:172)\n\tat org.apache.zeppelin.scheduler.AbstractScheduler.runJob(AbstractScheduler.java:130)\n\tat org.apache.zeppelin.scheduler.ParallelScheduler.lambda$runJobInScheduler$0(ParallelScheduler.java:39)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\n\tat java.base/java.lang.Thread.run(Thread.java:832)\nCaused by: org.apache.spark.sql.AnalysisException: Table or view not found: variant.occurrences_sd_9pyzahhe_re_000008; line 1 pos 14;\n'GlobalLimit 10\n+- 'LocalLimit 10\n   +- 'Project [*]\n      +- 'UnresolvedRelation [variant, occurrences_sd_9pyzahhe_re_000008]\n\n\tat org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)\n\tat org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:106)\n\tat org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1$adapted(CheckAnalysis.scala:92)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:177)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:176)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:176)\n\tat scala.collection.immutable.List.foreach(List.scala:392)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:176)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:176)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:176)\n\tat scala.collection.immutable.List.foreach(List.scala:392)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:176)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:176)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:176)\n\tat scala.collection.immutable.List.foreach(List.scala:392)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:176)\n\tat org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:92)\n\tat org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:89)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:130)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:156)\n\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:153)\n\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:68)\n\tat org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)\n\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:133)\n\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:764)\n\tat org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:133)\n\tat org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:68)\n\tat org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:66)\n\tat org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:58)\n\tat org.apache.spark.sql.Dataset$.$anonfun$ofRows$2(Dataset.scala:99)\n\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:764)\n\tat org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:97)\n\tat org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:607)\n\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:764)\n\tat org.apache.spark.sql.SparkSession.sql(SparkSession.scala:602)\n\tat org.apache.spark.sql.SQLContext.sql(SQLContext.scala:650)\n\t... 15 more\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1605545553799_724457540",
+      "id": "paragraph_1605545553799_724457540",
+      "dateCreated": "2020-11-16T11:52:33-0500",
+      "dateStarted": "2020-11-17T20:37:14-0500",
+      "dateFinished": "2020-11-17T20:37:14-0500",
+      "status": "ERROR",
+      "$$hashKey": "object:4951"
+    },
+    {
+      "text": "%sql\n",
+      "user": "anonymous",
+      "dateUpdated": "2020-11-17T20:36:57-0500",
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1605663417145_885378745",
+      "id": "paragraph_1605663417145_885378745",
+      "dateCreated": "2020-11-17T20:36:57-0500",
+      "status": "READY",
+      "$$hashKey": "object:4952"
+    }
+  ],
+  "name": "ADT",
+  "id": "2FT6HVZMV",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.9.0-preview2",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/ADT"
+}

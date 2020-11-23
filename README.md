@@ -54,6 +54,7 @@ spark.hadoop.fs.s3a.connection.ssl.enabled      false
 spark.hadoop.fs.s3a.path.style.access   true
 spark.jars.packages org.apache.spark:spark-avro_2.12:3.0.1,org.apache.hadoop:hadoop-aws:3.2.0,com.amazonaws:aws-java-sdk-bundle:1.11.375
 spark.sql.catalogImplementation hive
+spark.driver.host    127.0.0.1
 ```
 
 3) Test the setup 
@@ -82,5 +83,23 @@ Dont forget to change the path `~/workspace/ui-etl/target/scala-2.12/ui-etl.jar`
 - Verify ADT table `select * from adt`
 - You can also verify than files in minio have been created under `ui/adt` directory
 
- 
+6) Start a Spark cluster 
+In  order to query our table with a notebook utility, we can start a spark cluster
+- Start a master : Open a terminal and in `SPARK_HOME` directory, run `sbin/start-master.sh --webui-port 8081`
+- Start a slave : run ` sbin/start-slave.sh spark://127.0.0.1:7077`
+- In a browser, open http://localhost:8081, you should be able to see one worker
+
+6) Install Zeppelin
+- Download [Zeppelin](https://httpd-mirror.sergal.org/apache/zeppelin/zeppelin-0.9.0-preview2/zeppelin-0.9.0-preview2-bin-netinst.tgz) and unarchive it
+- Edit file `${ZEPPELIN_HOME}/conf/zeppelin-env.sh` and add these lines :
+```
+export SPARK_HOME= ....
+export SPARK_MASTER=spark://127.0.0.1:7077
+```
+Replace SPARK_HOME value with the aboslute path to your Spark installation directory
+
+- Start Zeppelin : Open a terminal and in `ZEPPELIN_HOME` directory run ` bin/zeppelin-daemon.sh start`
+- In a browser open http://localhost:8080
+- Then you can import the notebook adt in from local notebooks directory
+- Execute this notebook
    
